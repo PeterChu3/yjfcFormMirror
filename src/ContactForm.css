@@ -1,0 +1,215 @@
+/* src/ContactForm.css */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+
+.header {
+  background-color: #eaaa02;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  top: 0;
+  width: auto;
+  z-index: 1000;
+}
+
+.radio-group {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  /* width:100px; */
+}
+
+.radio-group input[type="radio"] {
+  /* margin-right: 8px;
+    max-width: 30px; */
+  margin-right: 10px;
+  width: auto
+}
+
+/* Hover effect for labels */
+.radio-group label:hover {
+  background-color: #d6d8db;
+}
+
+/* Checked radio button label style */
+.radio-group input[type="radio"]:checked+label {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.table-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Two-column layout */
+  gap: 10px;
+  margin-top: 10px;
+  margin: 5%;
+}
+
+/* Styling the charts section */
+.charts-section {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.chart-item {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width:80%;
+  margin-inline:10%;
+}
+
+.chart-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.missing-checkbox {
+  margin-left: 10px;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Indicates the row is clickable */
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease;
+  height: 100%;
+}
+
+.checklist-item:hover {
+  background-color: #e6e6e6;
+  /* Changes background on hover */
+}
+
+.checklist-item input {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: #ffffff;
+  /* Green */
+  border: none;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px;
+}
+
+.tires-section {
+  margin-top: 20px;
+  padding: 15px;
+
+}
+
+.tires-section h2 {
+  margin-bottom: 10px;
+}
+
+.tires-section label {
+  display: block;
+  margin-bottom: 10px;
+  color:#d6d8db;
+}
+
+.tires-section input[type="number"] {
+  /* width: 20%; 
+  padding: 5px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px; */
+}
+
+.tires-section input[type="text"] {
+  width: 100%; /* Full-width text input */
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.caution-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d93025;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+h2 {
+  color: rgb(205, 216, 239);
+  font-size: 2rem;
+}
